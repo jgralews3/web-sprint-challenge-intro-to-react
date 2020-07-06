@@ -3,9 +3,9 @@ import axios from "axios";
 import Character from "./Character.js";
 
 function CharacterPage (){
-  // function myFunction() {
-  //   document.getElementsByClassName("CharactersInfo").classList.toggle("CharactersInfoOpen");
-  // }
+//   function myFunction() {
+//     return document.getElementByClassName("CharactersInfo").classList.toggle("CharactersInfoOpen");
+//   }
   const [role, setRole] = useState([]);
 useEffect (()=>{
   axios.get("https://swapi.dev/api/people/")
